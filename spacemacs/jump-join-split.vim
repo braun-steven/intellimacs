@@ -24,6 +24,8 @@ vnoremap <leader>jj    :action AceAction<CR>
 let g:WhichKeyDesc_JumpJoinSplit_JumpToLine = "<leader>jl jump-to-line"
 nnoremap <leader>jl    :action AceLineAction<CR>
 vnoremap <leader>jl    :action AceLineAction<CR>
+nnoremap sj            :action AceLineAction<CR>
+vnoremap sj            :action AceLineAction<CR>
 
 " Insert new line and move down
 let g:WhichKeyDesc_JumpJoinSplit_InsertNewlineAndMoveDown = "<leader>jn insert-newline-and-move-down"
